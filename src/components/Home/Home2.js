@@ -1,13 +1,8 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -16,40 +11,20 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            <span className="purple"> SOBRE </span> MI
+            <span className="purple"> Sobre </span> mi:
             </h1>
             <p className="home-about-body">
-              Desde hace un tiempo me he sentido atraido por la programacion, hoy en dia
-              es una pasion 💖
+              Mi nombre es Miguel, actualmente soy Salesforce Developer aunque cuando me inicie en el mundo de la programacion
+              comence aprendiendo el paquete completo Full-Stack, y hoy en dia estoy en busqueda de nuevos desafios.
               <br />
-              <br />Soy fluente en lenguajes como
-              <i>
-                <b className="purple"> Javascript, TypeScript y MySql. </b>
-              </i>
-              <br />
-              <br />
-              Mis intereses son desarrollar nuevas &nbsp;
-              <i>
-                <b className="purple">Productos y tecnologias web </b> and
-                y tambien areas relacionadas a {" "}
-                <b className="purple">
-                  Diseño web, Inteligencia Artificial e E-commerce.
-                </b>
-              </i>
+              Mis hobbies son jugar videojuegos (Fortnite, Minecraft y Anno 1404 son mis favoritos 😄), patinar en mi longboard
+              y en ocasiones disenar y/o mejorar mis conocimientos en programacion.
+              <br />Tengo conocimiento en lenguajes como
+              <b className="purple"> JavaScript, Apex, LWC, Java, entre otros... </b>
               <br />
               <br />
-              De ser posible, quisiera poder aplicar mis conocimientos en 
-              programacion con  <b className="purple">Node.js</b> y
-              <i>
-                <b className="purple">
-                  {" "}
-                  Frameworks y Javascript Librarys
-                </b>
-              </i>
-              &nbsp; como
-              <i>
-                <b className="purple"> React.js y Redux</b>
-              </i>
+              Mis intereses actuales son poder embeberme aun mas con el conocimiento en desarrollo de apps (Desktop y Mobile) y
+              en el desarrollo de implementaciones para modelos de IA o desarrollo de agentes inteligentes en Salesforce (AgentForce).
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,7 +35,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>CONTACTO</h1>
+            <h1>
+              Contacto
+            </h1>
             <p>
               Puedes <span className="purple">conectarte </span>conmigo aqui:
             </p>
@@ -93,16 +70,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
